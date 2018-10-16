@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>301 j-Query</title>
+  <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+
+<nav>
+  <ul>
+    <li data-character="shapes">See Shapes</li>
+    <li data-character="colors">See Colors</li>
+  </ul>
+</nav>
+
+<section id="shapes" class="class-hide">
+  <ul id="first">
+    <li>torus</li>
+    <li>cylinder</li>
+    <li>cone</li>
+  </ul>
+  <button id="add-first">Add To First Group</button>
+  <button id="remove-first">Remove From First Group</button>
+
+  <ul id="second">
+    <li>pyramid</li>
+    <li>triangular prism</li>
+    <li>octahedron</li>
+  </ul>
+  <button id="add-second">Add To Second Group</button>
+  <button id="remove-second">Remove From Second Group</button>
+
+  <ul id="log">
+    <p>Selection Log:</p>
+  </ul>
+  <button id="clear">Clear Log</button>
+
+</section>
+
+
+<section id="colors" class="class-hide">
+  <select id="colors">
+    <option>Please select a color</option>
+    <option id="raspberry">raspberry</option>
+    <option id="raspberry">limoncello</option>
+    <option id="raspberry">aloha</option>
+  </select>
+
+  <div id="colors">
+    <img id="raspberry" class="img-hide" src="./img/raspberry.jpg">
+    <img id="limoncello" class="img-hide" src="./img/limoncello.jpg">
+    <img id="aloha" class="img-hide" src="./img/aloha.jpg">
+  </div>
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+  <script type="text/javascript" src="./app.js"></script>
+</body>
+</html>
